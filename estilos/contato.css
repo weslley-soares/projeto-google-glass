@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+section {
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+#identidade {
+    background: #ffffff url('../_imagens/icone-contato.png') no-repeat right center;
+}
+#endereco {
+    background: #ffffff url('../_imagens/icone-endereco.png') no-repeat right center;
+}
+.endereco {
+    height: 215px;
+}
+#msg {
+    background: #ffffff url('../_imagens/icone-mensagem.png') no-repeat right center;
+}
+#pedido {
+    background: #ffffff url('../_imagens/icone-pagamento.png') no-repeat right center;
+}
+
+form p {
+    padding: 10px;
+}
+#msg {
+    padding: 10px;
+}
+#sex {
+    position: relative;
+    left: 50%;
+    transform: translate(-90%);
+}
+textarea {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    text-align: center;
+    width: 90%;
+}
+
+#botao {
+    background-color: #026873;
+    border: 2px solid #026873;
+    color: #f28241;
+    height: 30px;
+    width: 100%;
+}
+#botao:hover {
+    background-color: #2ab0bf;
+}

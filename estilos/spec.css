@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+h3 {
+    color: #2ab0bf;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 1.2em;
+}
+.item {
+    height: 400px;
+}

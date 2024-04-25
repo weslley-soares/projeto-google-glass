@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Finger+Paint&family=Passion+One:wght@400;700;900&family=Sriracha&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@font-face {
+    font-family: 'FonteLogo';
+    src: url('../_fonts/bubblegum-sans-regular.otf');
+}
+
+/*
+Mobile devices – 320px — 480px.
+iPads, Tablets – 481px — 768px.
+Small screens, laptops – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more.
+*/
+
+:root {
+    --cor1: #013440;
+    --cor2: #026873;
+    --cor3: #2ab0bf;
+    --cor4: #c5d7d9;
+    --cor5: #f28241;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--cor4);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor2), var(--cor1));
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 3px 10px #00000057;
+}
+header h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+header p {
+    font-family: "Titillium Web", sans-serif;
+}
+
+nav {
+    position: absolute;
+    top: 0px;
+    width: 50%;
+    padding: 10px;
+}
+nav ul {
+    display: none;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+nav li {
+    margin-bottom: 20px;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+.material-symbols-outlined {
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: #ffffff;
+    min-width: 320px;
+    max-width: 480px;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+main h1 {
+    color: var(--cor5);
+    font-family: "Sriracha", sans-serif;
+    margin-bottom: 10px;
+}
+main h2 {
+    background-image: linear-gradient(to right, var(--cor2), var(--cor3), transparent);
+    color: #ffffff;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 1.5m;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main h3 {
+    margin-bottom: 20px;
+}
+main img {
+    width: 100%;
+}
+main p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+#ponto {
+    display: none;
+}
+
+table {
+    border: 1px solid var(--cor2);
+    border-collapse: collapse;
+    margin: auto;
+}
+caption {
+    color: var(--cor5);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+th {
+    background-color: var(--cor2);
+    color: #ffffff;
+    text-align: right;
+    vertical-align: top;
+    padding: 10px;
+}
+td {
+    background-color: var(--cor4);
+    border: 1px solid var(--cor2);
+    padding: 10px;
+}
+
+video {
+    width: 100%;
+}
+
+aside {
+    background-color: var(--cor4);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: var(--cor1);
+    color: #ffffff;
+    text-align: center;
+}
+footer a {
+    color: #ffffff;
+    font-weight: bolder;
+    text-decoration: none;
+}

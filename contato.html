@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale-Conosco</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/contato.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<script src="script/script.js"></script>
+<body>
+    <header>
+        <h1>Google Glass</h1>
+        <p>A revolução do Google está chegando</p>
+        <!-- Imagem do Óculos-->
+    </header>
+    <nav id="burguer">
+        <span class="material-symbols-outlined" onclick="menu()">Menu</span>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="spec.html">Especificações</a></li>
+            <li><a href="fotos.html">Fotos</a></li>
+            <li><a href="midia.html">Multimídia</a></li>
+            <li><a href="contato.html">Fale conosco</a></li>
+        </ul>
+    </nav>
+<body>
+    <main>
+        <h2>Fale-Conosco</h2>
+        <h1>Formulário de Contato</h1>
+        <section id="identidade">
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Identificação do suário: </legend>
+                    <p>
+                        <label for="tnome">Nome: </label>
+                        <input type="text" name="nome" id="tnome" placeholder="Nome completo">
+                    </p>
+                        <p>
+                            <label for="tsenha">Senha: </label>
+                            <input type="password" name="Senha" id="tsenha" placeholder="8 dígitos" min="8" max="8">
+                        </p>
+                        <hr>
+                        <p>
+                            <label for="temail">E-mail: </label>
+                            <input type="email" name="email" id="temail" placeholder="Email">
+                        </p>
+                        <fieldset style="width: 200px;" id="sex">
+                            <legend>Sexo: </legend>
+                            <p>
+                                <input type="radio" name="sex" id="masc" checked> 
+                                <label for="masc"> Masculino</label>
+                            </p>
+                            <p>
+                                <input type="radio" name="sex" id="fem">
+                                <label for="fem"> Feminino</label>
+                            </p>
+                        </fieldset>
+                        <p>
+                            <label for="tdata">Data de Nascimento: </label>
+                            <input type="date" name="data" id="tdata">
+                        </p>
+                </fieldset>
+            </form>
+        </section>
+        <section id="endereco">
+            <form action="" method="post">
+                <fieldset class="endereco">
+                    <legend>Endereço</legend>
+                    <p>
+                        <label for="trua">Logradouro </label>
+                        <input type="text" name="rua" id="trua" placeholder="Rua,Av, Trav...">
+                    </p>
+                    <p>
+                        <label for="tEst">Estado: </label> 
+                        <select name="Est" id="tEst">
+                            <optgroup label="Região Norte">
+                                <option value="AM">Amazonas</option>
+                                <option value="PA">Pará</option>
+                                <option value="AC">Acre</option>
+                                <option value="RR">Roraima</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="AP">Amapá</option>
+                                <option value="TO">Tocantins</option>
+                            </optgroup>
+                            <optgroup label="Região Nordeste">
+                                <option value="AL">Alagoas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="PB">Praíba</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="SE">Sergipe</option>
+                            </optgroup>
+                            <optgroup label="Região Centro-Oeste">
+                                <option value="GO">Goiás</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="DF">Distrito Federal</option>
+                            </optgroup>
+                            <optgroup label="Região Sudeste">
+                                <option value="ES">Espírito Santo</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="SP">São Paulo</option>
+                            </optgroup>
+                            <optgroup label="Região Sul">
+                                <option value="PR">Paraná</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                            </optgroup>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="tcid">Cidade: </label>
+                        <input type="text" name="cid" id="tcid" placeholder="Sua Cidade">
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+        <section id="msg">
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Mensagem</legend>
+                    <p>
+                        Grau de Urgência: Min
+                        <input type="range" name="sat" id="tsat" min="1" max="10">
+                        Max
+                    </p>
+                    <p><label for="tmsg">Mensagem: </label></p>
+                    <textarea name="msg" id="tmsg" cols="45" rows="5" placeholder="Deixe aqui sua mensagem"></textarea>
+                </section>
+                </fieldset>
+            </form>
+        <section id="pedido">
+           <form action="" method="post">
+            <fieldset>
+                <legend>Quero um Google Glass: </legend>
+                <p>
+                    <input type="checkbox" name="che" id="tche">
+                    <label for="tche">Gostaria de adquirir um Google Glass quando disponível?</label>
+                   </p>
+                   <p>
+                    <label for="tcor">Cor: </label>
+                   <input type="color" name="cor" id="tcor" value="#0000ff">
+                   </p>
+                   <p>
+                    <label for="tqua">Quantidade: </label>
+                    <input type="number" name="qua" id="tqua" min="0" max="5">
+                   </p>
+                   <p>
+                    <label for="tpre">Preço Total R$: </label>
+                    <input type="text" name="pre" id="tpre" placeholder="Total a Pagar">
+                   </p>
+            </fieldset>
+           </form>
+        </section>
+        <form action="">
+            <input id="botao" type="button" value="Enviar">
+        </form>
+    </main>
+    <footer>
+        <p>Weslley Soares<br>
+           <a href="#"> Instagran</a> / <a href="#">Twitter</a></p>
+    </footer>
+</body>
+</html>
