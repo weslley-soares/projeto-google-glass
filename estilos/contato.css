@@ -5,19 +5,19 @@ section {
     overflow: hidden;
 }
 #identidade {
-    background: #ffffff url('../_imagens/icone-contato.png') no-repeat right center;
+    background: #ffffff url('../imagens/icone-contato.png') no-repeat right center;
 }
 #endereco {
-    background: #ffffff url('../_imagens/icone-endereco.png') no-repeat right center;
+    background: #ffffff url('../imagens/icone-endereco.png') no-repeat right center;
 }
 .endereco {
     height: 215px;
 }
 #msg {
-    background: #ffffff url('../_imagens/icone-mensagem.png') no-repeat right center;
+    background: #ffffff url('../imagens/icone-mensagem.png') no-repeat right center;
 }
 #pedido {
-    background: #ffffff url('../_imagens/icone-pagamento.png') no-repeat right center;
+    background: #ffffff url('../imagens/icone-pagamento.png') no-repeat right center;
 }
 
 form p {
